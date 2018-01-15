@@ -1,6 +1,5 @@
 #navigation {
 	font-family: 'Roboto', sans-serif;
-	background-color: #ffffff;
 }
 
 .jumbotron {
@@ -56,6 +55,15 @@
 
 dd {
 	margin-bottom: 1rem;
+}
+
+.sub-header {
+	margin: 15px 0px 20px 0px;
+}
+
+a {
+	
+	font-family: 'Roboto', sans-serif;
 }
 
 .gears {
