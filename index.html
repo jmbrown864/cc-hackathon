@@ -3,135 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="icon" href="img/fav.png" type="image/gif" sizes="32x32">
-
+    <link rel="stylesheet" href="style.css">
     <title>Make A Difference Hackathon</title>
 </head>
 <body>
 
 <!-- NAVBAR -->
 	<div id="navigation">
-		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Info</a>
-		      <a class="nav-item nav-link" href="#">Schedule</a>
-		      <a class="nav-item nav-link" href="#">Registration</a>
-		      <a class="nav-item nav-link" href="#">FAQ</a>
-		    </div>
-		  </div>
+		<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">
+				<img src="img/fav-black.png" height="50">
+			</a>
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		
+				<span class="navbar-toggler-icon"></span>
+			
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="#info">About</a>
+					<a class="nav-item nav-link" href="#schedule">Schedule</a>
+					<a class="nav-item nav-link" href="#">Resources</a>
+					<a class="nav-item nav-link" href="#faq">FAQ</a>
+				</div>
+			</div>
+
+			<form class="form-inline">
+				<button class="btn btn-outline-success">Register</button>
+			</form>
 		</nav>
 	</div>
 
 <!-- JUMBOTRON -->
-	<div id="banner">
-		<div class="jumbotron" style="background-image: url(img/gears.png); background-size: cover; background-position: 0% 60%;">
+    <div id="main" class="container">
+	<div id="banner" class="img-wrapper">
+		<!-- <div class="jumbotron" style="background-image: url(img/gears.png); background-size: cover; background-position: 0% 60%;">
+		<div class="jumbotron">
 		  <div class="container">
 		    <h1 class="display-4">Make A Difference Hackathon</h1>
-		    <p class="lead">January 27th & 28th // Klaus Atrium</p>
+		    <img src="img/logo.png">
+		    <h2>January 27th & 28th // Klaus Atrium</h2>
 		  </div>
+		</div> -->
+		<img src="img/banner.png" class="img-fluid">
+		
+		<div class="img-overlay">
+			<button type="button" class="btn btn-primary btn-large">Register</button>
 		</div>
 	</div>
 
 <!-- MAIN CONTENT-->
-    <div id="main" class="container">
+<!--     <div id="main" class="container"> -->
     	
 <!-- ABOUT -->
-    	<div id="info">
+    	<div id="info" class="section">
 
-    		<div class="row">
+	    	<div class="container">
 
-	    		<div class="col-sm-12">
-	    		
-	    			<h2 class="section-header text-center">Make A Difference Hackathon</h2>
-	    		
+	    		<div class="section-content row" style="padding-top: 30px">
+
+	    			<h6 class="about text-justify">This 24 hour hackathon hosted by the College of Computing gives individuals a chance to produce big or small solutions for individual or global needs. We believe technology has the power to spark positive change in our communities. Our mission is to empower and enrich humanity. We want to gather undergraduate students of all backgrounds to bridge the gap between technology and social advocacy in the hopes of inspiring individuals to build creative tools that can be used to tackle society's biggest issues. Our community welcomes everyone, including all levels of programming skills. We encourage all students to join.</h6>
+
 	    		</div>
 
 	    	</div>
 
-	    	<div class="row">
-
-	    		<h6>This 24 hour hackathon hosted by the College of Computing gives individuals a chance to produce big or small solutions for individual or global needs. We believe technology has the power to spark positive change in out communities. Our missions is to empower and enrich humanity. We want to gather undergraduates students of all backgrounds to bridge the gap between technology and social advocacy in the hopes of inspiring individuals to build creative tools that can be used to tackle society's biggest issues. Our community welcomes everyone, including all levels of programming skills. We encourage all students to join.</h6>
-
-	    	</div>
-    	
     	</div>
+
+  		<div id="divider" class="gears" style="background-color: #ea5a42">
+   			<img src="https://goo.gl/fpC7Oh" alt="gear" class="big">
+		</div>
 
 <!-- SCHEDULE -->    	
-    	<div id="schedule">
-    	
+    	<div id="schedule" class="section">
+
     		<div class="row">
 	    
 	    		<div class="col-sm-12">
 
-	    			<h2 class="section-header text-center">Schedule</h2>
+	    			<h2 class="section-header text-center">SCHEDULE</h2>
 
 	    		</div>
 	    
 	    	</div>
-    		
-    		<div class="row">
-	    	
-	    		<h6>11am - 12pm = registration, team networking and lunch<br>
-					12pm - hack begins<br>
-					6pm - Dinner<br>
-					10pm - Time to Caffeinate <br>
-					12am - 4th meal<br>
-					7am - breakfast<br>
-					11am - hack ends/ lunch break<br>
-					12pm - 2pm pitches/judging/prizes
-				</h6>
-			
-			</div>
-    	
-    	</div>
-    	
-<!-- REGISTRATION -->    	
-    	<div id="registration">
-    	
-    		<div class="row">
-	    
-	    		<div class="col-sm-12">
-	
-		    		<h2 class="section-header text-center">Registration</h2>
-	    
+
+	    	<div class='section-content'>
+
+	    		<div class="row">
+	    			<div class="col-4"></div>
+	    			<div class="col-4">
+	    				<h6 class="date text-center">January 27</h6>
+	    			</div>
+	    			<div class="col-4"></div>
+	    		</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">11:00 AM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Registration & Lunch</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">12:00 PM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Hacking Begins!</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="text-right">6:00 PM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Dinner</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">10:00 PM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Caffeine Break</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+	    			<div class="col-4"></div>
+	    			<div class="col-4">
+	    				<h6 class="date text-center">January 28</h6>
+	    			</div>
+	    			<div class="col-4"></div>
+	    		</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">12:00 AM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">4th Meal</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">7:00 AM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Breakfast</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">11:00 AM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Hacking Ends & Lunch</h6>
+		    		</div>
+		    	</div>
+
+		    	<div class="row">
+		    		<div class="col-6">
+		    			<h6 class="time text-right">12:00 - 2:00 PM</h6>
+		    		</div>
+
+		    		<div class="col-6">
+		    			<h6 class="text-left">Pitches, Juding, & Prizes</h6>
+		    		</div>
 		    	</div>
 
 	    	</div>
-    		
-    		<div class="row">
-
-	    		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfRh3PjdBzuDHOSUsALvLgUPDwQQQrOAwgc_pztVyqhyUBCsg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-	    	</div>
-
+    	
     	</div>
+
+  		<div id="divider" class="gears" style="background-color: #5baff1">
+   			<img src="https://goo.gl/fpC7Oh" alt="gear" class="big">
+		</div>
     	
 <!-- FAQ -->
-    	<div id="faq">
+    	<div id="faq" class="section">
 
     		<div class="row">
 	    		
 	    		<div class="col-sm-12">
 	    		
-	    		<h2 class="text-center">Frequently Asked Questions</h2>
+	    			<h2 class="section-header text-center">FAQ</h2>
 	    		
 	    		</div>
 
 	    	</div>
 
-	    	<div class="row">
+	    	<div class="container">
 
-    			<div class="col-sm-2"></div>
+	    	<div class="row section-content">
 
-    			<div class="col-sm-4">
+	    		<div class="col-md-1"></div>
+
+    			<div class="col-md-5">
 	    			<dl>
 		    			<dt>What is a hackathon?</dt>
 		    			<dd>A hackathon is where you turn your ideas into real stuff!</dd>
@@ -156,7 +242,7 @@
 		    		</dl>
     			</div>
 
-    			<div class="col-sm-4">
+    			<div class="col-md-5">
 	    			<dl>
 		    			<dt>What about hardware and tools?</dt>
 		    			<dd>Bring anything you like and just check it with us.  We will also have some company sponsored API’s and datasets. Here is a list of free tools:</dd>
@@ -178,36 +264,99 @@
 		    		</dl>
     			</div>
 
-    			<div class="col-sm-2"></div>
+    			<div class="col-md-1"></div>
     		
+	    	</div>
+
 	    	</div>
     	
     	</div>
 
+  		<div id="divider" class="gears" style="background-color: #6cddaa">
+   			<img src="https://goo.gl/fpC7Oh" alt="gear" class="big">
+		</div>
+
 <!-- SPONSORS -->
-		<div id="sponsors">
+		<div id="sponsors" class="section container">
 
 			<div class="row">
 	
 				<div class="col-sm-12">
 	
-					<h2 class="section-header text-center">Sponsors</h2>
+					<h2 class="section-header text-center">SPONSORS</h2>
 
 				</div>
 
 			</div>
 
 			<div class="row">
-				<h6>Sandia
-					Capital One
-					Union Pacific
-					UPS
-					Bloomberg
-					Shofur
-					Google
-					GTRI
-					Verizon Telematics  
-				</h6>
+
+				<div class="col-sm-4">
+
+					<img src="img/sandia.png" class="img-fluid">
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<img src="img/capital-one.png" class="img-fluid">
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<div class="text-center">
+						<img src="img/union-pacific.png" class="img-fluid" style="max-width: 50%">
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-4">
+
+					<div class="text-center">
+						<img src="img/ups.png" class="img-fluid" style="max-width: 50%">
+					</div>
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<img src="img/bloomberg.png" class="img-fluid">
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<img src="img/shofur.png" class="img-fluid">
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-4">
+
+					<img src="img/google.png" class="img-fluid">
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<img src="img/gtri.png" class="img-fluid">
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<img src="img/verizon-telematics.png" class="img-fluid">
+
+				</div>
+
 			</div>
 	  	
 	  	</div>

@@ -1,8 +1,194 @@
-div.jumbotron {
-  background-image: url(gears.png);
-  background-position: 0% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*color: white;*/
-  /*text-shadow: black 0.3em 0.3em 0.3em;*/
+#navigation {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+}
+
+.jumbotron {
+	/*background: transparent !important;*/
+	background-color: #f9f9f9;
+	background-image: url(img/banner.png);
+	background-position: 0% 50%;
+	background-size:  cover;
+	background-repeat: no-repeat;
+	padding: 20em;
+	/*color: white;*/
+	/*text-shadow: black 0.3em 0.3em 0.3em;*/
+}
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 83%;
+}
+
+.section-header {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+	padding: 30px 0px;
+}
+
+.section-content {
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 30px;
+}
+
+.about {
+	font-size: 20px;
+}
+
+.date {
+	text-decoration: underline;
+}
+
+dd {
+	margin-bottom: 1rem;
+}
+
+.gears {
+   /*width: 500px;*/
+   margin: 10px auto;
+   display: block;
+   text-align: center;
+   font-weight: bold;
+   font-family: Arial;
+   color: #fff;
+   text-shadow: 1px 1px 2px #5F868A;
+   padding: 25px;
+}
+
+.gears .big {
+   width: 100px;
+   height: 100px;
+   -webkit-transform-origin: center;
+   -moz-transform-origin: center;
+   -o-transform-origin: center;
+   transform-origin: center;
+   -webkit-animation: rotate 1.5s linear infinite;
+   -moz-animation: rotate 1.5s linear infinite;
+   -o-animation: rotate 1.5s linear infinite;
+   animation: rotate 1.5s linear infinite
+}
+
+.gears .small {
+   width: 70px;
+   height: 70px;
+   margin-left: -6px;
+   -webkit-transform-origin: center;
+   -moz-transform-origin: center;
+   -o-transform-origin: center;
+   transform-origin: center;
+   -webkit-animation: reverseRotate 1.5s linear infinite;
+   -moz-animation: reverseRotate 1.5s linear infinite;
+   -o-animation: reverseRotate 1.5s linear infinite;
+   animation: reverseRotate 1.5s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+   0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+}
+
+@-moz-keyframes rotate {
+   0% {
+      -moz-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+}
+
+@-o-keyframes rotate {
+   0% {
+      -o-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+}
+
+@keyframes rotate {
+   0% {
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+}
+
+@-webkit-keyframes reverseRotate {
+   0% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+   100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+   }
+}
+
+@-moz-keyframes reverseRotate {
+   0% {
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+   100% {
+      -moz-transform: rotate(0);
+      transform: rotate(0);
+   }
+}
+
+@-o-keyframes reverseRotate {
+   0% {
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+   100% {
+      -o-transform: rotate(0);
+      transform: rotate(0);
+   }
+}
+
+@keyframes reverseRotate {
+   0% {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+   100% {
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+   }
 }
